@@ -1,0 +1,17 @@
+executable = singularity_wrapper.sh
+
+# run_number number_of_runs batch_number
+arguments = $(Process) 100 7 /usr/bin/Rscript driver.R
+log = simulation-ps7-$(Process).log
+output = simulation-ps7-$(Process).out
+error = simulation-ps7-$(Process).err
+
+should_transfer_files   = Yes
+when_to_transfer_output = ON_EXIT
+
+request_cpus            = 1
+request_memory          = 4G
+request_disk            = 4G
+
+queue 101
+

@@ -1,0 +1,16 @@
+% latex table generated in R 4.3.2 by xtable 1.8-4 package
+% Thu Oct 17 13:25:06 2024
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrlrrr}
+  \hline
+Model & Coefficient & Std.Err & Bandwidth & Obs.Below & Obs.Above \\ 
+  \hline
+IK Bandwidth & -0.31 & (0.2195) & 0.4924 & 12531 & 2000 \\ 
+  Linear & 0.30 & (0.318) & 0.2086 & 1299 & 4517 \\ 
+  Quadratic & 0.44 & (0.365) & 0.3487 & 1733 & 8682 \\ 
+  Cubic & 0.67 & (0.4802) & 0.3591 & 1759 & 9003 \\ 
+  Quartic & 0.68 & (0.5664) & 0.4003 & 1841 & 10153 \\ 
+   \hline
+\end{tabular}
+\end{table}
